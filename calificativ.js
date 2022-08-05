@@ -14,22 +14,22 @@
      2: IS
      1: IS
 */
-const nume = function calificative() {
+function calificative(a){
     let note=[1,2,3,4,5,6,7,8,9,10];
+    a=note;
     let cal;
-     for(let i=0;i<note.length;i++){
-       note[i]=7;
-      if (note[i]>8 && note[i]<=10) {
+    for (let i = 0; i < arguments.length; i++) {
+      if (arguments[i] > 8 && arguments[i] <= 10) {
         cal = "FB";
-      } else if (note[i]>6 && note[i]<=8 ) {
+      } else if (arguments[i] > 6 && arguments[i] <= 8) {
         cal = "B";
-      } else if (note[i]>4 && note[i]<=6) {
+      } else if (arguments[i] > 4 && arguments[i] <= 6) {
         cal = "S";
-      } else if (note[i] <= 4 && note[i]>0) {
+      } else if (arguments[i] <= 4 && arguments[i] > 0) {
         cal = "IS";
-      } 
-      console.log(note[i] + ":" + cal);
+      }
+      return cal;
     }
   }
   
-  nume();
+  console.log(calificative(8));
