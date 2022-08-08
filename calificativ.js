@@ -14,3 +14,15 @@
      2: IS
      1: IS
 */
+
+const calificativ = function()
+
+let array = [1,2,3,4,5,6,7,8,9]
+
+let array=note;
+
+for (let i = 1, i <array.lenght; i++) {
+    return calificativ;
+}
+
+
