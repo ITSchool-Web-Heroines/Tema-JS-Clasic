@@ -15,14 +15,22 @@
      1: IS
 */
 
-const calificativ = function()
+const calificativ = function(calif) {
+let array = [1,2,3,4,5,6,7,8,9,10];
+calif=array
 
-let array = [1,2,3,4,5,6,7,8,9]
+for (let i = 0; i <array.length; i++) {
+    if(array[1] >8 && array[i]<=10) {
+        calif ="FB";
 
-let array=note;
+    }
+    else if (array[1] > 4 && array[i]<=6) {
+          calif="S";
+    }
+    else if
+    
 
-for (let i = 1, i <array.lenght; i++) {
-    return calificativ;
 }
 
-
+}
+console.log(calificativ);
