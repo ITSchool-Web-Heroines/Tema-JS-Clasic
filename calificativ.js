@@ -15,21 +15,18 @@
      1: IS
 */
 function calificative(a){
-    let note=[1,2,3,4,5,6,7,8,9,10];
-    a=note;
     let cal;
-    for (let i = 0; i < arguments.length; i++) {
-      if (arguments[i] > 8 && arguments[i] <= 10) {
-        cal = "FB";
-      } else if (arguments[i] > 6 && arguments[i] <= 8) {
-        cal = "B";
-      } else if (arguments[i] > 4 && arguments[i] <= 6) {
-        cal = "S";
-      } else if (arguments[i] <= 4 && arguments[i] > 0) {
-        cal = "IS";
-      }
-      return cal;
+    
+    if (a > 8 && a <= 10) {
+      cal = "FB";
+    } else if (a > 6 && a <= 8) {
+      cal = "B";
+    } else if (a > 4 && a <= 6) {
+      cal = "S";
+    } else if (a<= 4 && a> 0) {
+      cal = "IS";
     }
-  }
-  
-  console.log(calificative(8));
+    return cal;
+    }
+    
+    console.log(calificative(4));
