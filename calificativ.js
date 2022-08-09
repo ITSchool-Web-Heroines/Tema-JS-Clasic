@@ -14,3 +14,15 @@
      2: IS
      1: IS
 */
+
+function calificativ(nota) {
+  if (nota < 5) {
+    return "IS";
+  } else if (nota < 7) {
+    return "S";
+  } else if (nota < 9) {
+    return "B";
+  } else return "FB";
+}
+
+console.log(calificativ(3));
