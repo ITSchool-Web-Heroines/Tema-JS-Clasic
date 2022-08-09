@@ -14,3 +14,19 @@
      2: IS
      1: IS
 */
+function calificative(a){
+    let cal;
+    
+    if (a > 8 && a <= 10) {
+      cal = "FB";
+    } else if (a > 6 && a <= 8) {
+      cal = "B";
+    } else if (a > 4 && a <= 6) {
+      cal = "S";
+    } else if (a<= 4 && a> 0) {
+      cal = "IS";
+    }
+    return cal;
+    }
+    
+    console.log(calificative(4));
