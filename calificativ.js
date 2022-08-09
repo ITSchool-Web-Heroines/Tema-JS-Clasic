@@ -1,16 +1,13 @@
-/*
-    Scrie o funcție care primește ca parametru un număr și întoarce un calificativ.
-    Încearcă să scrii cât mai puține instrucțiuni.
-    
-    Calificative:
-    10: FB
-     9: FB
-     8: B
-     7: B
-     6: S
-     5: S
-     4: IS
-     3: IS
-     2: IS
-     1: IS
-*/
+const notes = function (mark) {
+  if (mark == 10 || mark == 9) {
+    return console.log("FB");
+  } else if (mark == 8 || mark == 7) {
+    return console.log("B");
+  } else if (mark == 6 || mark == 5) {
+    return console.log("S");
+  } else if (mark == 4 || mark == 3 || mark == 2 || mark == 1) {
+    return console.log("IS");
+  }
+};
+
+notes(10);
