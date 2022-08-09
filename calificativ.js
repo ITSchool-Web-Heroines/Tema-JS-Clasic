@@ -14,3 +14,29 @@
      2: IS
      1: IS
 */
+
+function calificativ(num) {
+    if (num <= 0) {
+      return "unexistent";
+    } 
+    
+    else if (num > 0 && num < 5) {
+      return "IS";
+    } 
+    
+    else if (num < 7) {
+      return "S";
+    } 
+    
+    else if (num < 9) {
+      return "B";
+    } 
+    
+    else if (num <= 10) {
+      return "FB"; 
+    }
+  
+    else return "unexistent";
+  }
+  
+  console.log(calificativ(-1));
