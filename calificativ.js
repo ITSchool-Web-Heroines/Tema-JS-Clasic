@@ -31,3 +31,4 @@ for (let i = 0; i <arguments.length; i++) {
         return calif;
 }
 console.log(calificativ(3));
+.
