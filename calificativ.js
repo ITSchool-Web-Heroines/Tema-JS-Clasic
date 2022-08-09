@@ -17,20 +17,17 @@
 
 const calificativ = function(calif) {
 let array = [1,2,3,4,5,6,7,8,9,10];
-calif=array
-
-for (let i = 0; i <array.length; i++) {
-    if(array[1] >8 && array[i]<=10) {
+for (let i = 0; i <arguments.length; i++) {
+    if(arguments[i] > 8 && arguments[i]<=10) {
         calif ="FB";
-
     }
-    else if (array[1] > 4 && array[i]<=6) {
+    else if (arguments[i] > 4 && arguments[i]<=6) {
           calif="S";
     }
-    else if
-    
+    else if (arguments[i] <= 4 && arguments[i]>1) {
+        calif="IS";}
 
 }
-
+        return calif;
 }
-console.log(calificativ);
+console.log(calificativ(3));
