@@ -14,3 +14,15 @@
      2: IS
      1: IS
 */
+const grade = function (mark) {
+  if (mark <= 4) {
+    return "IS";
+  } else if (mark <= 6) {
+    return "S";
+  } else if (mark <= 8) {
+    return "B";
+  } else {
+    return "FB";
+  }
+};
+console.log(grade("1"));
