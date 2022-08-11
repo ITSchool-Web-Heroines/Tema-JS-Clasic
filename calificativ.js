@@ -25,4 +25,4 @@ const grade = function (mark) {
     return "FB";
   }
 };
-console.log(grade("1"));
+console.log(grade(10));
