@@ -26,3 +26,5 @@ const grade = function (mark) {
   }
 };
 console.log(grade(10));
+console.log(grade(5));
+console.log(grade(2));
