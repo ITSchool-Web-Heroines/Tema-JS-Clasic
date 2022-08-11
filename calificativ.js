@@ -28,3 +28,17 @@ const grade = function (mark) {
 console.log(grade(10));
 console.log(grade(5));
 console.log(grade(2));
+
+// REZOLVARE CORNEL
+/* function grade(mark) {
+  if (mark >= 9) {
+    return "FB";
+  }
+  if (mark >= 7) {
+    return "B";
+  }
+  if (mark >= 5) {
+    return "S";
+  }
+  return "IS";
+}*/
