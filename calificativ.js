@@ -14,3 +14,17 @@
      2: IS
      1: IS
 */
+function grade (mark) {
+    if (mark >= 9) {
+        return "FB"
+    }
+    if (mark >= 7) {
+        return "B"
+    }
+    if (mark >= 5) {
+       return "S"
+    }
+        return "IS"
+}
+
+console.log(grade(100));
