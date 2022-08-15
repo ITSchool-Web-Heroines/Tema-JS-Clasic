@@ -14,7 +14,7 @@
      2: IS
      1: IS
 */
-gfunction grade (mark) {
+function grade (mark) {
     if (mark >= 9) {
         return "FB"
     }
